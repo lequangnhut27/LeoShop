@@ -5,10 +5,10 @@ namespace LeoShop.Data.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class WebBanDongHoContext : DbContext
+    public partial class LeoShopContext : DbContext
     {
-        public WebBanDongHoContext()
-            : base("name=WebBanDongHoContext")
+        public LeoShopContext()
+            : base("name=LeoShopContext")
         {
         }
 

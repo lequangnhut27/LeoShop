@@ -9,10 +9,10 @@ namespace LeoShop.Data.Infrastructure
 {
     public class DbFactory : Disposable, IDbFactory
     {
-        private WebBanDongHoContext dbContext;
-        public WebBanDongHoContext Init()
+        private LeoShopContext dbContext;
+        public LeoShopContext Init()
         {
-            return dbContext ?? (dbContext = new WebBanDongHoContext());
+            return dbContext ?? (dbContext = new LeoShopContext());
         }
 
         protected override void DisposeCore()

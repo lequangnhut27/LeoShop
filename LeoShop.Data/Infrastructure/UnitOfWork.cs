@@ -10,14 +10,14 @@ namespace LeoShop.Data.Infrastructure
     public class UnitOfWork : IUnitOfWork
     {
         private readonly IDbFactory dbFactory;
-        private WebBanDongHoContext dbContext;
+        private LeoShopContext dbContext;
 
         public UnitOfWork(IDbFactory dbFactory)
         {
             this.dbFactory = dbFactory;
         }
 
-        public WebBanDongHoContext DbContext
+        public LeoShopContext DbContext
         {
             get { return dbContext ?? (dbContext = dbFactory.Init()); }
         }

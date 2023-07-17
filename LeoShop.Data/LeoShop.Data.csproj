@@ -133,7 +133,7 @@
     <Compile Include="Models\Shipper.cs" />
     <Compile Include="Models\ThuongHieu.cs" />
     <Compile Include="Models\TinhTrangHoaDon.cs" />
-    <Compile Include="Models\WebBanDongHoContext.cs" />
+    <Compile Include="Models\LeoShopContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

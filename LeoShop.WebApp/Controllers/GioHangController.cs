@@ -11,7 +11,7 @@ namespace LeoShop.WebApp.Controllers
 {
     public class GioHangController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
         private PayPal.Api.Payment payment;
         // GET: GioHang
         public ActionResult GioHang()

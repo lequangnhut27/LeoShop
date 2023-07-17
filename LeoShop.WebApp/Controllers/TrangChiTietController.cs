@@ -11,7 +11,7 @@ namespace LeoShop.WebApp.Controllers
 {
     public class TrangChiTietController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
         // GET: TrangChiTiet
         public ActionResult Details(int? maDH)
         {

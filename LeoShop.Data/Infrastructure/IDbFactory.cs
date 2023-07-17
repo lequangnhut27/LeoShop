@@ -9,6 +9,6 @@ namespace LeoShop.Data.Infrastructure
 {
     public interface IDbFactory : IDisposable
     {
-        WebBanDongHoContext Init();
+        LeoShopContext Init();
     }
 }

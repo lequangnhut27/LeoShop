@@ -20,7 +20,7 @@ namespace LeoShop.WebApp.Controllers
 {
     public class HomeController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
         private readonly IDongHoService _dongHoService;
 
         public HomeController(IDongHoService dongHoService)
