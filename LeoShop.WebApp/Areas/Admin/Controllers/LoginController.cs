@@ -10,7 +10,7 @@ namespace LeoShop.WebApp.Areas.Admin.Controllers
 {
     public class LoginController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
         // GET: Admin/Login
         public ActionResult Login()
         {

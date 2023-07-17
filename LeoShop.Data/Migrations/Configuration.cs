@@ -5,14 +5,14 @@ namespace LeoShop.Data.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<LeoShop.Data.Models.WebBanDongHoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<LeoShop.Data.Models.LeoShopContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(LeoShop.Data.Models.WebBanDongHoContext context)
+        protected override void Seed(LeoShop.Data.Models.LeoShopContext context)
         {
             //  This method will be called after migrating to the latest version.
 

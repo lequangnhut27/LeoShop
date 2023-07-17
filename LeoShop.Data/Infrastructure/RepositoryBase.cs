@@ -11,7 +11,7 @@ namespace LeoShop.Data.Infrastructure
 {
     public abstract class RepositoryBase<T> where T : class
     {
-        private WebBanDongHoContext dbContext;
+        private LeoShopContext dbContext;
         private readonly IDbSet<T> dbSet;
 
         protected IDbFactory DbFactory
@@ -20,7 +20,7 @@ namespace LeoShop.Data.Infrastructure
             private set;
         }
 
-        protected WebBanDongHoContext DbContext
+        protected LeoShopContext DbContext
         {
             get { return dbContext ?? (dbContext = DbFactory.Init()); }
         }

@@ -11,7 +11,7 @@ namespace LeoShop.WebApp.Areas.Admin.Controllers
 {
     public class ShippersController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
         // GET: Admin/Shippers
         public ActionResult Index()
         {

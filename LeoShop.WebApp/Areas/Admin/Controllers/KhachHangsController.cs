@@ -13,7 +13,7 @@ namespace LeoShop.WebApp.Areas.Admin.Controllers
 {
     public class KhachHangsController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
 
         // GET: Admin/KhachHangs
         public ActionResult Index()

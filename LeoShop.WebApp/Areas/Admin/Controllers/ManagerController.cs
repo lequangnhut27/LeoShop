@@ -9,7 +9,7 @@ namespace LeoShop.WebApp.Areas.Admin.Controllers
 {
     public class ManagerController : Controller
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
         // GET: Admin/Manager
         public ActionResult Index()
         {

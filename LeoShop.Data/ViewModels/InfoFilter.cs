@@ -8,7 +8,7 @@ namespace LeoShop.Data.ViewModels
 {
     public class InfoFilter
     {
-        private WebBanDongHoContext db = new WebBanDongHoContext();
+        private LeoShopContext db = new LeoShopContext();
 
         public int MinPrice { get; set; }
         public int MaxPrice { get; set; }
